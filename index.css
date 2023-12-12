@@ -1,0 +1,159 @@
+body {
+    width: 600px;
+    margin: auto;
+   
+} 
+
+/* for logo and header */
+.logo-container{
+    position: relative;
+}
+#mainHeader,#sideHeader{
+    position: absolute;
+    color: #fff;
+    background-color: saddlebrown;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+#mainHeader{
+    left: 45px;
+    top: 0px;
+}
+#sideHeader{
+    left: 45px;
+    top: 50px;
+    margin-top: 20px;
+}
+img{
+    width: 600px;
+    height: 400px;
+    background-size: cover;
+
+}
+
+/* For item details */
+.itemContainer {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid gray;
+}
+
+.foodemoji {
+    font-size: 50px;
+}
+
+.foodDetails {
+    width: 300px; /* Set a fixed width */
+    text-align: left;
+    padding-left: 50px;
+}
+
+.foodname {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.foodtype {
+    font-size: 16px;
+}
+
+.foodprice {
+    font-size: 20px;
+}
+.additem{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bolder;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.additem:hover{
+    cursor: pointer;
+}
+
+/* For Order details */
+.center{
+    margin-top: 25px;
+    font-size: 28px;
+    text-align: center;
+}
+.order,.totalorder {
+    display: flex;
+    justify-content: space-between; /* To push the text to the sides */
+}
+
+.totalorder{
+    border-top: 2px solid black;
+    padding-top: 5px;
+}
+
+.left-items {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 16px;
+    
+}
+
+.removeItem{
+    margin-left: 10px;
+    font-size: 10px;
+}
+.removeItem:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+.right-price {
+    text-align: right;
+    font-size: 16px;
+}
+
+.Conformation{
+    width: 100%;
+    background: #16DB99;
+    color: beige;
+    font-size: 16px;
+    margin-bottom: 25px;
+    padding: 20px;
+}
+
+/* Payment form */
+
+.formmodal{
+    
+   background: white;
+    width: 500px;
+    padding: 40px;
+    border: 1px solid black;
+    margin-top: 500px;
+    opacity: 1px;
+    margin-top: -500px;
+    z-index: 4;
+   position: absolute;
+   display: none;
+
+
+    
+   
+}
+
+.formmodal input{
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    height: 45px;
+}
+.formmodal button{
+    width: 100%;
+    height: 45px;
+}
+
+#thankyouMessage{
+    font-size: 48px;
+    color:#16DB99;
+}
